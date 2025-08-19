@@ -1,66 +1,98 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ✈ CargoWeen – Plateforme de Réservation de Fret Aérien
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![GitHub repo size](https://img.shields.io/badge/Version-1.0-blue)
+![Scrum](https://img.shields.io/badge/Méthodologie-Scrum-orange)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🔹 Introduction générale
 
-## Learning Laravel
+Améliorer la vie quotidienne et faciliter les tâches grâce à la technologie est au cœur de notre démarche.  
+Ce projet a été réalisé dans le cadre du **stage de fin d’études** à l’**Institut Supérieur des Études Technologiques de Kélibia**, effectué au sein de la société **CargoWeen**.  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Objectif du projet :**  
+Concevoir et implémenter une **plateforme digitale de réservation et de commercialisation du fret aérien**, offrant une solution complète depuis la recherche jusqu’à la réservation en ligne.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🔹 Chapitre 1 : Cadre du projet
 
-## Laravel Sponsors
+### I. Présentation de l’organisme d’accueil
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+**CargoWeen (SARL)** – Startup tunisienne labellisée Startup Act depuis octobre 2022.  
+**Adresse :** Avenue de la République, Immeuble de L’Oranger, App Nr 13, 1er étage, Nabeul 8000, Tunisie  
+**Téléphone :** +216 58 447 405  
+**Site Web :** [cargoween.com](http://cargoween.com)  
+**E-mail :** terres.raouf@cargoween.com  
 
-### Premium Partners
+**Activité principale :**  
+Digitalisation du fret aérien pour permettre aux professionnels de rechercher, comparer et réserver des services de fret aérien 24h/24 et 7j/7.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+---
 
-## Contributing
+### II. Étude préalable
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+#### 1. Analyse de l’existant
+- Processus manuel : appels téléphoniques, emails et demandes de devis.  
+- Multiplicité des échanges → erreurs, retards et coûts élevés.  
+- Visibilité limitée sur les réservations et suivi difficile.
 
-## Code of Conduct
+#### 2. Critique de l’existant
+- ❌ Processus complexe et lourd  
+- ❌ Temps de réservation élevé  
+- ❌ Coûts supplémentaires  
+- ❌ Manque de visibilité et suivi en temps réel
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+#### 3. Solution proposée
+- Plateforme **en ligne** simplifiant et automatisant la réservation de fret aérien.  
+- Comparaison transparente des tarifs et services des compagnies aériennes.  
+- Suivi des réservations en **temps réel**.  
+- Réduction des erreurs et optimisation de la chaîne logistique.
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### III. Organisation du travail
 
-## License
+#### 1. Méthodologie adoptée
+- **Méthodologie Agile – Scrum**  
+- Organisation en **Sprints** pour des livraisons itératives et incrémentales  
+- Rôles Scrum :
+  - **Product Owner**  
+  - **Scrum Master**  
+  - **Scrum Team**  
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Cycle Scrum](https://via.placeholder.com/600x300.png?text=Cycle+Scrum)
+
+#### 2. Outils de travail
+- **Trello** – Gestion des tâches et suivi des Sprints  
+- **GitLab** – Gestion de version et collaboration sur le code  
+- **StarUML** – Modélisation UML et conception des diagrammes  
+
+#### 3. Environnement de travail
+
+**Logiciel / Langage utilisé :**
+- **Laravel** avec **PHP**  
+- **XAMPP** pour serveur local  
+- **MySQL / MariaDB**  
+- HTML, CSS, JavaScript, Bootstrap  
+
+---
+
+## 🔹 Fonctionnalités
+
+- **Gestion des utilisateurs** : création, modification, suppression.  
+- **Gestion des réservations** : ajout, suivi et modification des réservations de fret.  
+- **Comparaison des tarifs et services** des compagnies aériennes.  
+- **Notifications et alertes** pour le suivi des réservations.  
+- **Tableaux de bord interactifs** pour visualiser les flux de fret et les statistiques.  
+
+---
+
+## 🔹 Installation
+
+1. **Cloner le projet :**
+```bash
+git clone https://github.com/selim1920/CargoWeen-.git
+cd CargoWeen
